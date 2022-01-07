@@ -7,7 +7,7 @@ body {
     'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-color: #fafa;
   color: #212121;
   line-height: 1.5;
 }
@@ -18,5 +18,31 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+#search-box:hover {
   border: 3px solid blue;
+}
+
+.country-item {
+  list-style: none;
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.country-list__name {
+  padding-left: 15px;
+}
+.country-title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.country-text {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.country-subtext {
+  font-weight: normal;
 }
